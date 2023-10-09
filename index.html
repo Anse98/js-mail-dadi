@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Email/Dadi</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/f1f0c66429.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <div class="container">
+  <div class="container mt-4">
+    <!-- head -->
     <!-- titolo del gioco -->
     <div class="dice-title text-center">
-      <h1>Gioco dei dadi</h1>
+      <h1>Gioco dei dadi <i class="fa-solid fa-dice"></i></h1>
     </div>
-    <!-- scelta utente -->
-    <div class="user-choise">
-      <p>Hai il numero:<span class="user-number"></span></p>
-    </div>
-    <!-- scelta computer -->
-    <div class="pc-choise">
-      <p>Il computer ha il numero:<span class="pc-number"></span></p>
-    </div>
-    <!-- Chi ha vinto -->
-    <div class="winner">
-      <p class="win"></p>
+    <!-- body -->
+    <div class="dice-body">
+      <!-- scelta utente -->
+      <div class="user-choise border-bottom">
+        <p class="my-2">Hai il numero:<span class="user-number"></span></p>
+      </div>
+      <!-- scelta computer -->
+      <div class="pc-choise border-bottom">
+        <p class="my-2">Il computer ha il numero:<span class="pc-number"></span></p>
+      </div>
+      <!-- Chi ha vinto -->
+      <div class="winner text-center">
+        <p class="win my-2"></p>
+      </div>
     </div>
   </div>
 
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
   <script src="./app.js"></script>
 </body>
+
 </html>

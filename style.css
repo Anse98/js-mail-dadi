@@ -1,0 +1,18 @@
+.container {
+  border: solid 1px lightgrey;
+  padding: 0;
+  background-color: #E67984;
+  color: white;
+}
+
+.dice-body {
+  padding: 0 16px;
+  font-weight: 600;
+}
+
+.dice-title {
+  border-bottom: solid 1px lightgrey;
+  background-color: #051840;
+  padding: 6px 0;
+}
+
