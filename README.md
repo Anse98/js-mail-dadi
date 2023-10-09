@@ -1,13 +1,13 @@
 # EMAIL
 
-  ## Chiedere all'utente la sua mail
+  - Creare un array di email
 
-  - SE la mail è nella lista di chi puo accedere allora stampa "Accesso autorizzato"
+  - Chiedere all'utente la sua email
+
+  - SE la mail è nell'array allora stampa "Accesso autorizzato"
   - ALTRIMENTI stampa "Accesso negato"
 
 # DADI
-
-  ## Generare un numero random da 1 a 6
 
   - Generare numero da 1 a 6 per il computer e per l'utente
 
