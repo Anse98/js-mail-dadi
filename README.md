@@ -14,4 +14,5 @@
   - A chi è uscito il numero piu alto è il vincitore
 
     - SE all'utente è uscito il numero piu alto stampare a schermo che ha vinto
+    - ALTRIMENTI SE è usccito un numero pari stampare "pareggio"
     - ALTRIMENTI ha vinto il computer
