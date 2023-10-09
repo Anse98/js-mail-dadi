@@ -16,3 +16,8 @@
   padding: 6px 0;
 }
 
+#dice-btn {
+  --bs-btn-bg: #051840;
+  font-weight: 600;
+  border: none;
+}

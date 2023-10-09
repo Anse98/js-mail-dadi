@@ -24,7 +24,13 @@ else {
 
 // DADI
 
-// - Generare numero da 1 a 6 per l'utente 
+// Creo un bottone che mi tira i dadi 
+const diceButton = document.getElementById("dice-btn");
+
+// Do una funzione a quel bottone quando viene premuto
+diceButton.addEventListener("click", function(){
+  
+  // - Generare numero da 1 a 6 per l'utente 
 const userNum = parseInt(Math.random() * (6 - 1 + 1) + 1);
 const userNumber = document.querySelector(".user-number");
 userNumber.innerHTML =" "+ userNum;
@@ -51,4 +57,6 @@ else if (userNum === pcNum) {
  else {
   win.innerHTML = "Ha vinto il computer!";
 }
+})
+
 
